@@ -9,12 +9,12 @@ public class PrimoScanner {
         Scanner sc =  new Scanner (System.in);
 
         System.out.print("¿Que numero quieres saber si es primo o no?: ");
-        int num = sc.nextInt();
+        int n = sc.nextInt();
 
         if (esPrimo(n)) {
-            System.out.print ("El numero " + num + " es primo");
+            System.out.print ("El numero " + n + " es primo");
         } else {
-            System.out.print ("El numero " + num + " no es primo");
+            System.out.print ("El numero " + n + " no es primo");
 
         }
 
