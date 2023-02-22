@@ -23,7 +23,7 @@ public class PrimoScanner {
 
     public static boolean esPrimo(int numero){
 
-        if(numero<=1) {
+        if(numero <= 1) {
             return false;
         }
 
