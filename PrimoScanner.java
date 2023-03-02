@@ -20,7 +20,7 @@ public class PrimoScanner {
 
         sc.close();
     }
-
+/* Funcion que comprueba que un numero es primo*/
     public static boolean esPrimo(int numero){
 
         if(numero <= 1) {
