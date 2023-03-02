@@ -1,4 +1,4 @@
-/* Crear una funcion que nos indique si un numero es primo o no pedido por consola */
+/* Crear una funcion que nos indique si un numero es primo o no pedido por consola con el Scanner */
 
 package Ejercicios_funciones;
 
@@ -11,10 +11,10 @@ public class PrimoScanner {
         System.out.print("¿Que numero quieres saber si es primo o no?: ");
         int num = sc.nextInt();
 
-        if (esPrimo(n)) {
+        if (esPrimo(n)) { /* 
             System.out.print ("El numero " + num + " es primo");
         } else {
-            System.out.print ("El numero " + num + " no es primo");
+            System.out.print ("El numero " + num + " no es primo");*/
 
         }
 
